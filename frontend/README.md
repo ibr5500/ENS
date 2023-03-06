@@ -1,1 +1,0 @@
-# Ethereum Name Service setup
