@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 export default function Home() {
   const [walletConnected, setWalletConnected] = useState(false);
 
-  const web3ModalRef = userRef();
+  const web3ModalRef = useRef();
 
   const [ens, setENS] = useState("");
   const [address, setAddress] = useState("");
